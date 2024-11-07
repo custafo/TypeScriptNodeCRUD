@@ -5,7 +5,7 @@ import { CustomerRepositoryInMemory } from './infra/repository/memory/CustomerRe
 const router = Router()
 
 const repository = new CustomerRepositoryInMemory()
-const CustomerCreate = new CustomerCreate(repository)
+const customerCreateInstance = new CustomerCreate(repository)
 
 router.post('/customer', (request: Request, response: Response) => {
     response.status(201).send()
