@@ -1,6 +1,6 @@
 import { Customer } from "../Customer";
 
-export interface CostumerRepository {
+export interface CustomerRepository {
     save(customer: Customer): Promise<void>
     
 }

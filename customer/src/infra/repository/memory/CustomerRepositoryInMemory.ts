@@ -1,7 +1,7 @@
 import { Customer } from "../../../model/Customer"
-import { CostumerRepository } from "../../../model/repository/CustomerRepository"
+import { CustomerRepository } from "../../../model/repository/CustomerRepository"
 
-export class CustomerRepositoryInMemory implements CostumerRepository {
+export class CustomerRepositoryInMemory implements CustomerRepository {
 
     private customerCollection: Array<Customer> = []
 

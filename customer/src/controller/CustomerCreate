@@ -5,7 +5,7 @@ import { Uuid } from "../model/Uuid";
 
 export class CustomerCreate {
     
-    constructor (readonly repository: CostumerRepository) {
+    constructor (readonly repository: CustomerRepository) {
 
     }
 
