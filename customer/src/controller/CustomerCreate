@@ -1,5 +1,5 @@
 import {Request, response, Response} from "express"
-import { CustomerRepository } from "../model/repository/CostumerRepository";
+import { CustomerRepository } from "../model/repository/CustomerRepository";
 import { Customer } from "../model/Customer";
 import { Uuid } from "../model/Uuid";
 

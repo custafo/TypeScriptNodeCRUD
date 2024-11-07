@@ -1,5 +1,5 @@
 import { Customer } from "../../../model/Customer"
-import { CostumerRepository } from "../../../model/repository/CostumerRepository"
+import { CostumerRepository } from "../../../model/repository/CustomerRepository"
 
 export class CustomerRepositoryInMemory implements CostumerRepository {
 
